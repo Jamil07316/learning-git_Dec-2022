@@ -75,9 +75,6 @@ main.js                 git add .  (all file will add)     git commit -am 'Messa
     - git reset                     (used to remove files from staging area)
     - git reset --hard              (used to remove files from staging area and remove modified code in working directory)
 
-* Let's go live using github pages
-    - git clone (github)
-    - git push  (github
 
  -->
 
@@ -101,6 +98,26 @@ video- 57min.
         command-1:  git remote add origin https:
         command-2:  git branch -M main
         command-3:  git push -u origin main
+
+    4. if any file is committed after push an existing repository
+            command-1:  git push -u origin main
+
+
+
+    * Let's go live using github pages
+        - git clone (github)
+        - git push  (github)
+
+        step of live using github pages
+        ================================
+        1. have to go repository
+            (which repository code will want to run as page, this is repository)
+        2. have to click settings
+        3. then have to click pages menu
+        4. select main branch
+        5. have to click to save button of branch
+        6. at last, have to reload for getting page link
+
 
 
 
