@@ -63,14 +63,17 @@ main.js                 git add .  (all file will add)     git commit -am 'Messa
     - git init                      (used to initialize empty Git repository of project)-   it is first step
     - git status                    (used to see files in staging area)
     - git rm --cached               (used to remove file from staging area)
-    - git log                       (used to show committed code)
-    - git log --oneline             (used to show committed code with committed message)
+    - git log                       (used to show committed id and details)
+    - git log --oneline             (used to show committed id and details with committed message)
     - git restore modifiedFileName  (used to discard changes in working directory)
-    - git show commit_version
-    - git switch -
-    - git reset
+    - git show                      (used to see code of all committed or modified file)
+    - git show commitId             (used to see code of specific committed or modified file)
+
+    - git checkout version          video - 47min
+    - git switch -                  video - 47min
+
+    - git reset                     (used to remove file from staging area)
     - git reset --hard
-    - git checkout version
 
 * Let's go live using github pages
     - git clone (github)
