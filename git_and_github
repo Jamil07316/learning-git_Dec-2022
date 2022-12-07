@@ -53,7 +53,7 @@ Version Control System (there are three step of Version Control System)
 Working Dir             staging area                        commit (saved a version)
 ==============        ===================                =================================
 index.html              git add fileName                   git commit -m  'Message'
-main.js                 git add .  (all file will add)     git commit -am 'Message' (all file will commit)
+main.js                 git add .  (all file will add)     git commit -am 'Message' (all modified files will commit in single command)
 
 
 ** Github is remote version of local Git feature management
