@@ -72,8 +72,8 @@ main.js                 git add .  (all file will add)     git commit -am 'Messa
     - git checkout version          video - 47min
     - git switch -                  video - 47min
 
-    - git reset                     (used to remove file from staging area)
-    - git reset --hard              (used to remove file from staging area and remove modified code in working directory)
+    - git reset                     (used to remove files from staging area)
+    - git reset --hard              (used to remove files from staging area and remove modified code in working directory)
 
 * Let's go live using github pages
     - git clone (github)
