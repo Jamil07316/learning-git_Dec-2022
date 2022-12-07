@@ -1,0 +1,91 @@
+<!--
+
+Version(Software Development Project) Control System -VCS
+=======================================================================
+    Adding Feature and save a version
+        -Adding new feature
+        -Modify existing feature
+
+
+Software Development workflow
+===========================================================
+Feature - (branch)
+Sub-feature - (version)
+
+Facebook (Demo)
+
+    status management (branch)
+        -   image upload    (version)
+        -   link management (version)
+        -   React System    (version)
+        -   comment management  (version)
+        -   notification management (version)
+
+    personal profile management (branch)
+
+    group management (branch)
+
+    page management (branch)
+
+
+
+===============================================================
+---------------------GitHub Start here ------------------------
+===============================================================
+
+Working with GIT (Local version management)
+
+    - install git
+        - link (https://git-scm.com/)
+        - command (git --version) after installing for checking
+
+    - configure git
+        - git config --global user.name 'jamil'
+        - git config --global user.email 'jamil07316@gmail.com'
+
+        - command (git config --list) after configuring git for checking
+        - press (wq key) for close command end
+
+
+
+Version Control System (there are three step of Version Control System)
+
+Working Dir             staging area                        commit (saved a version)
+==============        ===================                =================================
+index.html              git add fileName                   git commit -m  'Message'
+main.js                 git add .  (all file will add)     git commit -am 'Message' (all file will commit)
+
+
+** Github is remote version of local Git feature management
+
+
+* Some Important git command
+    - git init                      (used to initialize empty Git repository of project)-   it is first step
+    - git status                    (used to see files in staging area)
+    - git rm --cached               (used to remove file from staging area)
+    - git log                       (used to show committed code)
+    - git log --oneline             (used to show committed code with committed message)
+    - git restore modifiedFileName  (used to discard changes in working directory)
+    - git show commit_version
+    - git switch -
+    - git reset
+    - git reset --hard
+    - git checkout version
+
+* Let's go live using github pages
+    - git clone (github)
+    - git push  (github
+
+ -->
+
+<!--
+
+    Github command
+    ==========================================
+    git push -u origin
+    git push -u origin 'branchName'
+    git branch
+    git merge comment
+    git push -u origin main
+
+ -->
