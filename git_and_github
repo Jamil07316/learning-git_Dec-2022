@@ -30,7 +30,7 @@ Facebook (Demo)
 
 
 ===============================================================
----------------------GitHub Start here ------------------------
+---------------------Git Start here ------------------------
 ===============================================================
 
 Working with GIT (Local version management)
@@ -82,6 +82,27 @@ main.js                 git add .  (all file will add)     git commit -am 'Messa
  -->
 
 <!--
+
+===============================================================
+---------------------GitHub Start here ------------------------
+===============================================================
+video- 57min.
+
+    step of github
+    ================
+    1. at first, create a github account. Then have to log in this account.
+    2. have to create a new repository
+        i.    Repository name
+        ii.   Description (optional)
+        iii.  Public
+        iv.   click- Create repository button
+
+    3. or push an existing repository from the command line
+        command-1:  git remote add origin https:
+        command-2:  git branch -M main
+        command-3:  git push -u origin main
+
+
 
     Github command
     ==========================================
