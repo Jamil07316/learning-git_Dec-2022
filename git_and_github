@@ -105,8 +105,7 @@ video- 57min.
 
 
     * Let's go live using github pages
-        - git clone (github)
-        - git push  (github)
+
 
         step of live using github pages
         ================================
@@ -121,12 +120,5 @@ video- 57min.
 
 
 
-    Github command
-    ==========================================
-    git push -u origin
-    git push -u origin 'branchName'
-    git branch
-    git merge comment
-    git push -u origin main
 
  -->
