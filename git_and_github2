@@ -25,16 +25,15 @@
     git checkout branchName          (used to entry in specific a branch. which branch name will define.)
     git push -u origin branchName    (used to push in created specific branch. which branch name will define.)
     git merge branchName             (used to add completed version(from working another branch file) in main branch)
-                                        Note of git merge:
+                                        Step of git merge:
                                             1. when will command git merge, then have to checkout in main branch.
                                             2. git merge branchName (branchName will be, from which branch, will add version in main branch)
                                                 example:  git merge comment       (will add of the comment branch version in main branch)
                                             3. after git merge, have to command (git push -u origin main)
 
-    git push -u origin main          (used to push in main branch of merge branch version.)
     git clone HTTPS-Link             (used to download repository main branch file)
                                       example: git clone https://github.com/Jamil07316/learning-git_Dec-2022.git
 
-    git pull                          (used before git pushing. if more than one person work same branch, then must be git pull before git pushing.)
+    git pull                          (used before command (git push -u origin branchName). if more than one person work in same branch, then must be command (git pull) before command (git push -u origin branchName).)
 
  -->
