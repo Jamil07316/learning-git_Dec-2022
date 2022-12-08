@@ -44,7 +44,7 @@ Working with GIT (Local version management)
         - git config --global user.email 'jamil07316@gmail.com'
 
         - command (git config --list) after configuring git for checking
-        - press (wq key) for close command end
+        - press (wq key) for closing end (used to solve end problem)
 
 
 
@@ -64,7 +64,7 @@ main.js                 git add .  (all file will add)     git commit -am 'Messa
     - git status                    (used to see files in staging area)
     - git rm --cached               (used to remove file from staging area)
     - git log                       (used to show committed id and details)
-    - git log --oneline             (used to show committed id and details with committed message)
+    - git log --oneline             (used to show committed id with committed message)
     - git restore modifiedFileName  (used to discard changes in working directory)
     - git show                      (used to see code of all committed or modified file)
     - git show commitId             (used to see code of specific committed or modified file)
